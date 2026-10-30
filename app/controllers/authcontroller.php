@@ -13,7 +13,7 @@ class AuthController
             $username = $_POST['username'] ?? '';
             $password = $_POST['password'] ?? '';
 
-            if ($username === 'Admin' && $password === 'Josena') {
+            if ($username === 'Admin' && $password === 'flora') {
                 $_SESSION['user_id'] = 1;
                 header('Location: /products');
                 exit;
